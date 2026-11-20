@@ -6,6 +6,8 @@
     <strong>Dine-In & Takeaway Available 🍽️</strong><br>
     Tap <b>+</b> to save your favourites.<br>
   </div>
+  <label class="menu-search" for="menuSearch"><span>⌕</span><input id="menuSearch" type="search" placeholder="Search dishes, e.g. paneer, dosa, rice" autocomplete="off"><button id="clearSearch" type="button" aria-label="Clear search" hidden>×</button></label>
+  <p id="searchStatus" class="search-status" aria-live="polite"></p>
   <div id="menu"></div>
 </main>
 <aside id="bag"><section><header><div><p>YOUR DINE-IN SELECTION</p><h2>Your table selection</h2></div><button id="closeBag" aria-label="Close">×</button></header><div id="bagItems"></div><footer><p class="staff-note"><strong>Ready to choose?</strong> Show this selection to our staff at your table.</p><p class="saved-note">Saved on this device · No payment or online order is placed.</p><button id="clear">Clear selection</button></footer></section></aside>
